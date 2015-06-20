@@ -1,0 +1,50 @@
+[
+    {
+        "name": "xuma/bfxm",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/hakanersu/bfxm.git",
+            "reference": "9bccc26c13b07f5522e798636ab6afb91b88140a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/hakanersu/bfxm/zipball/9bccc26c13b07f5522e798636ab6afb91b88140a",
+            "reference": "9bccc26c13b07f5522e798636ab6afb91b88140a",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "time": "2015-04-30 05:11:13",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Xuma\\Bfxm": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Hakan ERSU",
+                "email": "hakanersu@gmail.com"
+            }
+        ],
+        "description": "BFXM Json Builder",
+        "keywords": [
+            "bfxm",
+            "bulutfon",
+            "bulutfonxm"
+        ]
+    }
+]
