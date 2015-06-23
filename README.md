@@ -1,5 +1,5 @@
 # caller-name-update
-sh```
+```
 {
     "bfxm": {
         "version": 1
