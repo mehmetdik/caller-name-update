@@ -5,21 +5,21 @@ if (isset($_POST['caller'])) {
 	
 	$caller=$_POST['caller'];
 	
-$qry=mysql_query("select * from information where phone=$caller");
+$yazdir=mysql_query("select * from information where phone=$caller");
 	
 	
-	if ($temp=mysql_fetch_assoc($qry)) {
-		while ($take=mysql_fetch_array($qry)) {
-			$setname=$take['name']." ".$take['surname'];
+	if ($yaz=mysql_fetch_assoc($yazdir)) {
+		while ($al=mysql_fetch_array($yazdir)) {
+			$setname=$al['name']." ".$al['surname'];
 			}
 
 		$value=array(
 			"bfxm" => array("version"=>1),
 			"seq"=> array(
 				array(
-					"action"=>"dial",
+					"action"=>"set_caller_name",
 					"args"=>array(
-						"set_caller_name" =>"$setname"
+						"caller_name" =>"$setname"
 					)
 					)
 				)
