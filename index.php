@@ -1,6 +1,7 @@
 <?php
 include("connect.php");
 
+
 if (isset($_POST['caller'])) {
 	
 	$caller=$_POST['caller'];
@@ -8,9 +9,11 @@ if (isset($_POST['caller'])) {
 $qry=mysql_query("select * from information where phone=$caller");
 	
 	
-	if ($temp=mysql_fetch_assoc($qry)) {
+	if ($qry) {
 		while ($take=mysql_fetch_array($qry)) {
-			$setname=$take['name']." ".$take['surname'];
+			$name=$take['name'];
+			$surname=$take['surname'];
+			$setname="$name"." "."$surname";
 			}
 
 		$value=array(
@@ -22,6 +25,8 @@ $qry=mysql_query("select * from information where phone=$caller");
 						"caller_name" =>"$setname"
 					)
 					)
+					
+						
 				)
 			);
 	}else{
@@ -36,6 +41,7 @@ $qry=mysql_query("select * from information where phone=$caller");
 			);
 
 	}
+	
 
 
 	header('Content-Type: application/json');
