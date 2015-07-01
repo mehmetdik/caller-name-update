@@ -1,0 +1,5 @@
+{
+    "require": {
+        "xuma/bfxm": "dev-master"
+    }
+}
