@@ -1,5 +1,6 @@
 
 ### Arayan numara DB'de var ise BFON dökümanı şu şekilde olur.
+---------
 
 ```sh
 {
@@ -18,6 +19,7 @@
 ```
 
 ### Arayan numara DB'de yok ise BFON dökümanı şu şekilde olur.
+-------------
 
 ```sh
 {
