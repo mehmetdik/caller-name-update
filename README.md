@@ -1,4 +1,5 @@
 
+# Arayan numara DB'de var ise BFON dökümanı şu şekilde olur.
 ```sh
 {
     "bfxm": {
@@ -14,6 +15,24 @@
     ]
 }
 ```
+
+# Arayan numara DB'de yok ise BFON dökümanı şu şekilde olur.
+```sh
+{
+    "bfxm": {
+        "version": 1
+    },
+    "seq": [
+        {
+            "action": "dial",
+            "args": {
+                "destination" : 10
+            }
+        }
+    ]
+}
+```
+
 # MySQL Sorguları
 DB oluşturmak
 
