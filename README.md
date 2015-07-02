@@ -10,7 +10,7 @@ Uygulama bir [BFXM] uygulmasıdır. Numara sahibi [BFXM]'e yönlendirilmiş [Bul
 - Son olarak bulutfon hesabınızdan [BFXM oluşturmalı] ve bir numaraya yönledirmelisiniz.
 
 
-
+---
 - Arayan numara DB'de var ise BFON dökümanı şu şekilde olur.
 ```sh
 {
