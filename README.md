@@ -1,6 +1,7 @@
 # Uygulama Nasıl Çalışır?
 Uygulama bir [BFXM] uygulmasıdır. Numara sahibi [BFXM]'e yönlendirilmiş [Bulutfon] numaralarından birini arar.Eğer arayan kişinin bilgileri(isim,soyad,telno) DB'de bulunuyorsa aranan kişinin telefonuna arayan kişinin ismi ve soyismi gönderilerek arama yapılır.Ancak DB'de arayan kişinin bilgileri yok ise 10 numaralı menuye yönlendirilir.
 
+
 - Arayan numara DB'de var ise BFON dökümanı şu şekilde olur.
 ```sh
 {
