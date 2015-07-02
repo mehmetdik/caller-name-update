@@ -1,5 +1,5 @@
 
-# Arayan numara DB'de var ise BFON dökümanı şu şekilde olur.
+### Arayan numara DB'de var ise BFON dökümanı şu şekilde olur.
 ```sh
 {
     "bfxm": {
@@ -16,7 +16,7 @@
 }
 ```
 
-# Arayan numara DB'de yok ise BFON dökümanı şu şekilde olur.
+### Arayan numara DB'de yok ise BFON dökümanı şu şekilde olur.
 ```sh
 {
     "bfxm": {
