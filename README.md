@@ -9,7 +9,7 @@ Uygulama bir [BFXM] uygulmasıdır. Numara sahibi [BFXM]'e yönlendirilmiş [Bul
 * Connect.php içerisine girerek username,password kısımlarına kendi Veritabanı bilgilerimizi yazalım.
 * Son olarak bulutfon hesabınızdan [BFXM oluşturmalı] ve bir numaraya yönledirmelisiniz.
 
-
+---
 
 - Arayan numara DB'de var ise BFON dökümanı şu şekilde olur.
 ```sh
