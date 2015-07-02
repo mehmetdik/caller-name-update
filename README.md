@@ -2,6 +2,7 @@
 Uygulama bir [BFXM] uygulmasıdır. Numara sahibi [BFXM]'e yönlendirilmiş [Bulutfon] numaralarından birini arar.Eğer arayan kişinin bilgileri(isim,soyad,telno) DB'de bulunuyorsa aranan kişinin telefonuna arayan kişinin ismi ve soyismi gönderilerek arama yapılır.Ancak DB'de arayan kişinin bilgileri yok ise 10 numaralı menuye yönlendirilir.
 
 
+
 #Uygulama Nasıl Kullanılır?
 - Veritabanı ve tabloları oluşturalım.
 - Veritabanını bir telefon rehberi olarak düşünelim ve kişilerin bilgilerini veritabanına kayıt edelim.
