@@ -4,7 +4,6 @@ Uygulama bir [BFXM] uygulmasıdır. Numara sahibi [BFXM]'e yönlendirilmiş [Bul
 
 
 #Uygulama Nasıl Kullanılır?
-
 - Veritabanı ve tabloları oluşturalım.
 -
 - Veritabanını bir telefon rehberi olarak düşünelim ve kişilerin bilgilerini veritabanına kayıt edelim.
