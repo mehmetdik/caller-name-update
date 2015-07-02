@@ -3,15 +3,11 @@ Uygulama bir [BFXM] uygulmasıdır. Numara sahibi [BFXM]'e yönlendirilmiş [Bul
 
 
 
-#Uygulama Nasıl Kullanılır?
+#Uygulama Nasıl Kullanılır ?
 - Veritabanı ve tabloları oluşturalım.
--
 - Veritabanını bir telefon rehberi olarak düşünelim ve kişilerin bilgilerini veritabanına kayıt edelim.
--
 - Connect.php içerisine girerek username,password kısımlarına kendi Veritabanı bilgilerimizi yazalım.
-- 
 - Son olarak bulutfon hesabınızdan [BFXM oluşturmalı] ve bir numaraya yönledirmelisiniz.
-
 
 
 
