@@ -2,6 +2,15 @@
 Uygulama bir [BFXM] uygulmasıdır. Numara sahibi [BFXM]'e yönlendirilmiş [Bulutfon] numaralarından birini arar.Eğer arayan kişinin bilgileri(isim,soyad,telno) DB'de bulunuyorsa aranan kişinin telefonuna arayan kişinin ismi ve soyismi gönderilerek arama yapılır.Ancak DB'de arayan kişinin bilgileri yok ise 10 numaralı menuye yönlendirilir.
 
 
+#Uygulama Nasıl Kullanılır?
+- Veritabanı ve tabloları oluşturalım.
+- Veritabanını bir telefon rehberi olarak düşünelim ve kişilerin bilgilerini veritabanına kayıt edelim.
+- Connect.php içerisine girerek username,password kısımlarına kendi Veritabanı bilgilerimizi yazalım.
+- Son olarak bulutfon hesabınızdan [BFXM oluşturmalı] ve bir numaraya yönledirmelisiniz.
+
+
+
+
 - Arayan numara DB'de var ise BFON dökümanı şu şekilde olur.
 ```sh
 {
@@ -71,3 +80,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 [BFXM]:https://github.com/bulutfon/documents/tree/master/BFXM
 [Bulutfon]:https://www.bulutfon.com/
+[BFXM oluşturmalı]:https://www.youtube.com/watch?v=4DeFu8JvG3o
