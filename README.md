@@ -23,7 +23,7 @@ CREATE DATABASE notifications;
 
 Tablo oluşturmak
 
-``sh
+```sh
 CREATE TABLE IF NOT EXISTS `information` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(30) COLLATE utf8_turkish_ci NOT NULL,
