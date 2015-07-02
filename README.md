@@ -44,6 +44,8 @@ Uygulama bir [BFXM] uygulmasıdır. Numara sahibi [BFXM]'e yönlendirilmiş [Bul
     ]
 }
 ```
+## Version
+ 1.0.0
 
 # MySQL Sorguları
 DB oluşturmak
