@@ -16,7 +16,6 @@ namespace CNupdate;
 
 require 'connect.php';
 
-
 if (isset($_POST['caller'])) {
     $caller=$_POST['caller'];
     $qry=query("select * from information where phone=$caller");
@@ -33,17 +32,15 @@ if (isset($_POST['caller'])) {
         )
         );
     } else {
-        
-        $value=array(
+     $value=array(
         
         "bfxm" => array("version"=>1),
         "seq"=> array(
         "action"=>"dial",
         "args" => ["destination"=> 10]
         )
-        );
+        );                
     }
-    
     
     
     header('Content-Type: application/json');
@@ -51,47 +48,7 @@ if (isset($_POST['caller'])) {
     
 }
 
-/**
-* Makes MySQL Query
-*
-* @param string $qry MySQL query
-*
-* @return $str
-*/
-function query ($qry)
-{
-    $str = mysql_query($qry);
-    return $str;
-}
 
-/**
-* PHP also makes data that can be used easily.
-*
-* @param string $qry MySQL query
-*
-* @return $str
-*/
-function fetch ($qry)
-{
-    $str = mysql_fetch_array($qry);
-    return $str;
-}
-
-/**
-* return caller number name
-*
-* @param string $qry MySQL query
-*
-* @return $setname name will be sent to the phone
-*/
-function setname ($qry)
-{
-    while ($take=fetch($qry)) {
-        $setname=$take['name']." ".$take['surname'];
-    }
-    
-    return $setname;
-}
 
 
 ?>
