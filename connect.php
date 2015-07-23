@@ -1,5 +1,7 @@
 <?php
-mysql_select_db("directory",mysql_connect("localhost","root","root"));
+require 'settings.php';
+
+mysql_select_db($dbname,mysql_connect($servername,$username,$password));
 
 
 /**

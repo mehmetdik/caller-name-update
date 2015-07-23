@@ -15,6 +15,7 @@
 namespace CNupdate;
 
 require 'connect.php';
+require 'settings.php';
 
 if (isset($_POST['caller'])) {
     $caller=$_POST['caller'];
@@ -37,7 +38,7 @@ if (isset($_POST['caller'])) {
         "bfxm" => array("version"=>1),
         "seq"=> array(
         "action"=>"dial",
-        "args" => ["destination"=> 10]
+        "args" => ["destination"=> $menu]
         )
         );                
     }
